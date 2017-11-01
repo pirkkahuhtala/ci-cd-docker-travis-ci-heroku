@@ -14,5 +14,5 @@ else
   DOCKER_IMAGE="$DOCKER_REGISTRY_URL/$HEROKU_APP_NAME:$TAG" 
 fi
 
-docker build -f Dockerfile -t DOCKER_IMAGE .
-docker push DOCKER_IMAGE
+docker build -f Dockerfile -t $DOCKER_IMAGE .
+docker push $DOCKER_IMAGE
