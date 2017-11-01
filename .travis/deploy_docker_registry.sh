@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ "$DOCKER_REGISTRY_URL" = "docker-io"]; then
+if [ "$DOCKER_REGISTRY_URL" = "docker.io"]; then
   REAL_DOCKER_REGISTRY_URL=""
 else
   REAL_DOCKER_REGISTRY_URL="$DOCKER_REGISTRY_URL/"
