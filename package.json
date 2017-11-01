@@ -1,0 +1,30 @@
+{
+  "name": "ci-cd-docker-travis-ci-heroku",
+  "version": "1.0.0",
+  "description": "CI CD testing with Docker, Travis CI and Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirkkahuhtala/ci-cd-docker-travis-ci-heroku.git"
+  },
+  "keywords": [
+    "CI",
+    "CD",
+    "Docker",
+    "Travis",
+    "CI",
+    "Heroku"
+  ],
+  "author": "Pirkka Huhtala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pirkkahuhtala/ci-cd-docker-travis-ci-heroku/issues"
+  },
+  "homepage": "https://github.com/pirkkahuhtala/ci-cd-docker-travis-ci-heroku#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
