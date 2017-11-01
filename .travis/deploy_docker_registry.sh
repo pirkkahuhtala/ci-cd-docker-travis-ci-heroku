@@ -5,5 +5,5 @@ if [ "$TRAVIS_BRANCH" = "master" ]; then
 else
     TAG="$TRAVIS_BRANCH"
 fi
-docker build -f Dockerfile -t "$DOCKER_REGISTRY_URL/$DOCKER_USER/$HEROKU_APP_NAME:$TAG" .
-docker push "$DOCKER_REGISTRY_URL/$DOCKER_USER/$HEROKU_APP_NAME:$TAG"
+docker build -f Dockerfile -t "$DOCKER_REGISTRY_URL/$HEROKU_APP_NAME:$TAG" .
+docker push "$DOCKER_REGISTRY_URL/$HEROKU_APP_NAME:$TAG"
