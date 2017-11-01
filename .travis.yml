@@ -8,5 +8,5 @@ node_js:
   - "8"
 
 after_success:
-  - sh .travis/deploy_dockerhub.sh
+  - sh .travis/deploy_docker_registry.sh
   - test "$TRAVIS_BRANCH" = "master" && sh .travis/deploy_heroku.sh
